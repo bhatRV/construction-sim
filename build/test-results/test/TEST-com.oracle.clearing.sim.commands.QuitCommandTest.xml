@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.oracle.clearing.sim.commands.QuitCommandTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-24T06:37:51" hostname="Sunils-MBP" time="0.001">
-  <properties/>
-  <testcase name="quitCommandWorks()" classname="com.oracle.clearing.sim.commands.QuitCommandTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

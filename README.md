@@ -1,4 +1,4 @@
-Project Name : Construction Site Clearance Simulator
+Project Name : Construction Site Clearance Simulator and cost estimator
  
 
 
@@ -16,7 +16,7 @@ Run the 'SiteCleanSimulation' with File name as input (input/SiteMap1.txt)
 
 ./gradlew run --args <file name>
 eg.>>  
-  ./gradlew run --args input/input1.txt
+  ./gradlew run --args input/SiteMap1.txt
 ```
    
 java -jar build/libs/site-clearing-simulation.jar input/SiteMap1.txt

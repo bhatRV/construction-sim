@@ -1,0 +1,227 @@
+o o o r t r t r t r t 
+o o o o o o o o o o T 
+r r r r r r r r r r T 
+
+dCurrent Location - Northern edge of the site, immediately to the West of the site, and facing East.
+
+`Simulation started..... Please enter your instructions below or enter 'help' to get usage help 
+A 4
+R
+A
+A 4
+L
+A 2
+A 4
+L
+QUIT
+A is an Invalid Command!
+
+
+ZSession ended because there is an attempt to navigate beyond the boundaries of the site; 
+
+5 FORWARD 4, Turn RIGHT -->,  FORWARD 4, Execute QUIT
+
+&Detailed Cost for clearing this site:
+
+IItem                                       Quantity                 Cost
+Icommunication overhead                            4                    4
+Ifuel usage                                        8                    8
+Iuncleared squares                                25                   75
+Idestruction of protected tree                     0                    0
+Ipaint damage to bulldozer                         0                    0
+--------------------          
+HTotal COST:                                                          87
+----------------              
+o o o r t r t r t r t 
+o o o o o o o o o o T 
+r r r r r r r r r r T 
+
+dCurrent Location - Northern edge of the site, immediately to the West of the site, and facing East.
+
+`Simulation started..... Please enter your instructions below or enter 'help' to get usage help 
+A 8
+R
+A 4
+QUIT
+
+
+ZSession ended because there is an attempt to navigate beyond the boundaries of the site; 
+
+5 FORWARD 8, Turn RIGHT -->,  FORWARD 4, Execute QUIT
+
+&Detailed Cost for clearing this site:
+
+IItem                                       Quantity                 Cost
+Icommunication overhead                            3                    3
+Ifuel usage                                       16                   16
+Iuncleared squares                                21                   63
+Idestruction of protected tree                     0                    0
+Ipaint damage to bulldozer                         2                    4
+--------------------          
+HTotal COST:                                                          86
+----------------              
+o o o r t r t r t r t 
+o o o o o o o o o o T 
+r r r r r r r r r r T 
+
+dCurrent Location - Northern edge of the site, immediately to the West of the site, and facing East.
+
+`Simulation started..... Please enter your instructions below or enter 'help' to get usage help 
+A 4
+R
+A 5
+L
+A 2
+A 4
+L
+QUIT
+
+
+ZSession ended because there is an attempt to navigate beyond the boundaries of the site; 
+
+5 FORWARD 4, Turn RIGHT -->,  FORWARD 5, Execute QUIT
+
+&Detailed Cost for clearing this site:
+
+IItem                                       Quantity                 Cost
+Icommunication overhead                            3                    3
+Ifuel usage                                        8                    8
+Iuncleared squares                                25                   75
+Idestruction of protected tree                     0                    0
+Ipaint damage to bulldozer                         0                    0
+--------------------          
+HTotal COST:                                                          86
+----------------              
+o o o r t r t r t r t 
+o o o o o o o o o o T 
+r r r r r r r r r r T 
+
+dCurrent Location - Northern edge of the site, immediately to the West of the site, and facing East.
+
+`Simulation started..... Please enter your instructions below or enter 'help' to get usage help 
+A 4
+R
+A 2
+A 0
+L
+QUIT
+A 0 is an Invalid Command!
+
+*The simulation has ended at your request.
+
+D FORWARD 4, Turn RIGHT -->,  FORWARD 2, <-- Turn LEFT, Execute QUIT
+
+&Detailed Cost for clearing this site:
+
+IItem                                       Quantity                 Cost
+Icommunication overhead                            5                    5
+Ifuel usage                                        8                    8
+Iuncleared squares                                25                   75
+Idestruction of protected tree                     0                    0
+Ipaint damage to bulldozer                         0                    0
+--------------------          
+HTotal COST:                                                          88
+----------------              
+o o o r t r t r t r t 
+o o o o o o o o o o T 
+r r r r r r r r r r T 
+
+dCurrent Location - Northern edge of the site, immediately to the West of the site, and facing East.
+
+`Simulation started..... Please enter your instructions below or enter 'help' to get usage help 
+A 4
+R
+A 4
+L
+A 2
+A 4
+L
+QUIT
+
+
+ZSession ended because there is an attempt to navigate beyond the boundaries of the site; 
+
+5 FORWARD 4, Turn RIGHT -->,  FORWARD 4, Execute QUIT
+
+&Detailed Cost for clearing this site:
+
+IItem                                       Quantity                 Cost
+Icommunication overhead                            3                    3
+Ifuel usage                                        8                    8
+Iuncleared squares                                25                   75
+Idestruction of protected tree                     0                    0
+Ipaint damage to bulldozer                         0                    0
+--------------------          
+HTotal COST:                                                          86
+----------------              
+o o o r t r t r t r t 
+o o o o o o o o o o T 
+r r r r r r r r r r T 
+
+dCurrent Location - Northern edge of the site, immediately to the West of the site, and facing East.
+
+`Simulation started..... Please enter your instructions below or enter 'help' to get usage help 
+A 4
+R
+A 4
+R
+R
+A 4
+QUIT
+
+
+ZSession ended because there is an attempt to navigate beyond the boundaries of the site; 
+
+5 FORWARD 4, Turn RIGHT -->,  FORWARD 4, Execute QUIT
+
+&Detailed Cost for clearing this site:
+
+IItem                                       Quantity                 Cost
+Icommunication overhead                            3                    3
+Ifuel usage                                        8                    8
+Iuncleared squares                                25                   75
+Idestruction of protected tree                     0                    0
+Ipaint damage to bulldozer                         0                    0
+--------------------          
+HTotal COST:                                                          86
+----------------              
+	
+	dCurrent Location - Northern edge of the site, immediately to the West of the site, and facing East.
+	
+	`Simulation started..... Please enter your instructions below or enter 'help' to get usage help 
+	FOO
+	BAR
+	QUIT
+o o o r t r t r t r t 
+o o o o o o o o o o T 
+r r r r r r r r r r T 
+o o o r t r t r t r t 
+o o o o o o o o o o T 
+r r r r r r r r r r T 
+o o o r t r t r t r t 
+o o o o o o o o o o T 
+r r r r r r r r r r T 
+test is an Invalid Command!
+o o o r t r t r t r t 
+o o o o o o o o o o T 
+r r r r r r r r r r T 
+
+Protected Tree
+
+5 FORWARD 4, Turn RIGHT -->,  FORWARD 2, Execute QUIT
+
+&Detailed Cost for clearing this site:
+
+IItem                                       Quantity                 Cost
+Icommunication overhead                            3                    3
+Ifuel usage                                        8                    8
+Iuncleared squares                                 4                   12
+Idestruction of protected tree                     1                   10
+Ipaint damage to bulldozer                         0                    0
+--------------------          
+HTotal COST:                                                          33
+----------------              
+	o o r T 
+	r r t o 
+	o o o o 
++,test

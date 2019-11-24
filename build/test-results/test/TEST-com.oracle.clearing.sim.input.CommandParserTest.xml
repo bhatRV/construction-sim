@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.oracle.clearing.sim.input.CommandParserTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-11-24T06:37:51" hostname="Sunils-MBP" time="0.007">
+  <properties/>
+  <testcase name="parsesRightCommandWhenShortVersionUsed()" classname="com.oracle.clearing.sim.input.CommandParserTest" time="0.001"/>
+  <testcase name="parsesAdvanceCommandWhenShortVersionUsed()" classname="com.oracle.clearing.sim.input.CommandParserTest" time="0.0"/>
+  <testcase name="parsesAdvanceCommand()" classname="com.oracle.clearing.sim.input.CommandParserTest" time="0.001"/>
+  <testcase name="parsesQuitCommand()" classname="com.oracle.clearing.sim.input.CommandParserTest" time="0.001"/>
+  <testcase name="parsesLeftCommand()" classname="com.oracle.clearing.sim.input.CommandParserTest" time="0.0"/>
+  <testcase name="parsesQuitCommandWhenShortVersionUsed()" classname="com.oracle.clearing.sim.input.CommandParserTest" time="0.0"/>
+  <testcase name="parsesLeftCommandWhenShortVersionUsed()" classname="com.oracle.clearing.sim.input.CommandParserTest" time="0.0"/>
+  <testcase name="parsesBadFormat1()" classname="com.oracle.clearing.sim.input.CommandParserTest" time="0.0"/>
+  <testcase name="parsesBadFormat2()" classname="com.oracle.clearing.sim.input.CommandParserTest" time="0.001"/>
+  <testcase name="parsesRightCommand()" classname="com.oracle.clearing.sim.input.CommandParserTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

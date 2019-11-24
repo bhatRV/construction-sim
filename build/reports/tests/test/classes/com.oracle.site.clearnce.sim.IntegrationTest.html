@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - IntegrationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>IntegrationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.oracle.site.clearnce.sim.html">com.oracle.site.clearnce.sim</a> &gt; IntegrationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">6</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.053s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testAdvanceCommandEdgeCase()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBadCommand()</td>
+<td class="success">0.035s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOutOfBoundary()</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testProtectedTree()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRevisiting()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSuccess()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>o o o r t r t r t r t 
+o o o o o o o o o o T 
+r r r r r r r r r r T 
+
+Current Location - Northern edge of the site, immediately to the West of the site, and facing East.
+
+Simulation started..... Please enter your instructions below or enter 'help' to get usage help 
+A 4
+R
+A
+A 4
+L
+A 2
+A 4
+L
+QUIT
+A is an Invalid Command!
+
+
+Session ended because there is an attempt to navigate beyond the boundaries of the site; 
+
+ FORWARD 4, Turn RIGHT --&gt;,  FORWARD 4, Execute QUIT
+
+Detailed Cost for clearing this site:
+
+Item                                       Quantity                 Cost
+communication overhead                            4                    4
+fuel usage                                        8                    8
+uncleared squares                                25                   75
+destruction of protected tree                     0                    0
+paint damage to bulldozer                         0                    0
+--------------------          
+Total COST:                                                          87
+----------------              
+o o o r t r t r t r t 
+o o o o o o o o o o T 
+r r r r r r r r r r T 
+
+Current Location - Northern edge of the site, immediately to the West of the site, and facing East.
+
+Simulation started..... Please enter your instructions below or enter 'help' to get usage help 
+A 8
+R
+A 4
+QUIT
+
+
+Session ended because there is an attempt to navigate beyond the boundaries of the site; 
+
+ FORWARD 8, Turn RIGHT --&gt;,  FORWARD 4, Execute QUIT
+
+Detailed Cost for clearing this site:
+
+Item                                       Quantity                 Cost
+communication overhead                            3                    3
+fuel usage                                       16                   16
+uncleared squares                                21                   63
+destruction of protected tree                     0                    0
+paint damage to bulldozer                         2                    4
+--------------------          
+Total COST:                                                          86
+----------------              
+o o o r t r t r t r t 
+o o o o o o o o o o T 
+r r r r r r r r r r T 
+
+Current Location - Northern edge of the site, immediately to the West of the site, and facing East.
+
+Simulation started..... Please enter your instructions below or enter 'help' to get usage help 
+A 4
+R
+A 5
+L
+A 2
+A 4
+L
+QUIT
+
+
+Session ended because there is an attempt to navigate beyond the boundaries of the site; 
+
+ FORWARD 4, Turn RIGHT --&gt;,  FORWARD 5, Execute QUIT
+
+Detailed Cost for clearing this site:
+
+Item                                       Quantity                 Cost
+communication overhead                            3                    3
+fuel usage                                        8                    8
+uncleared squares                                25                   75
+destruction of protected tree                     0                    0
+paint damage to bulldozer                         0                    0
+--------------------          
+Total COST:                                                          86
+----------------              
+o o o r t r t r t r t 
+o o o o o o o o o o T 
+r r r r r r r r r r T 
+
+Current Location - Northern edge of the site, immediately to the West of the site, and facing East.
+
+Simulation started..... Please enter your instructions below or enter 'help' to get usage help 
+A 4
+R
+A 2
+A 0
+L
+QUIT
+A 0 is an Invalid Command!
+
+The simulation has ended at your request.
+
+ FORWARD 4, Turn RIGHT --&gt;,  FORWARD 2, &lt;-- Turn LEFT, Execute QUIT
+
+Detailed Cost for clearing this site:
+
+Item                                       Quantity                 Cost
+communication overhead                            5                    5
+fuel usage                                        8                    8
+uncleared squares                                25                   75
+destruction of protected tree                     0                    0
+paint damage to bulldozer                         0                    0
+--------------------          
+Total COST:                                                          88
+----------------              
+o o o r t r t r t r t 
+o o o o o o o o o o T 
+r r r r r r r r r r T 
+
+Current Location - Northern edge of the site, immediately to the West of the site, and facing East.
+
+Simulation started..... Please enter your instructions below or enter 'help' to get usage help 
+A 4
+R
+A 4
+L
+A 2
+A 4
+L
+QUIT
+
+
+Session ended because there is an attempt to navigate beyond the boundaries of the site; 
+
+ FORWARD 4, Turn RIGHT --&gt;,  FORWARD 4, Execute QUIT
+
+Detailed Cost for clearing this site:
+
+Item                                       Quantity                 Cost
+communication overhead                            3                    3
+fuel usage                                        8                    8
+uncleared squares                                25                   75
+destruction of protected tree                     0                    0
+paint damage to bulldozer                         0                    0
+--------------------          
+Total COST:                                                          86
+----------------              
+o o o r t r t r t r t 
+o o o o o o o o o o T 
+r r r r r r r r r r T 
+
+Current Location - Northern edge of the site, immediately to the West of the site, and facing East.
+
+Simulation started..... Please enter your instructions below or enter 'help' to get usage help 
+A 4
+R
+A 4
+R
+R
+A 4
+QUIT
+
+
+Session ended because there is an attempt to navigate beyond the boundaries of the site; 
+
+ FORWARD 4, Turn RIGHT --&gt;,  FORWARD 4, Execute QUIT
+
+Detailed Cost for clearing this site:
+
+Item                                       Quantity                 Cost
+communication overhead                            3                    3
+fuel usage                                        8                    8
+uncleared squares                                25                   75
+destruction of protected tree                     0                    0
+paint damage to bulldozer                         0                    0
+--------------------          
+Total COST:                                                          86
+----------------              
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.4</a> at 24/11/2019 5:37:51 PM</p>
+</div>
+</div>
+</body>
+</html>
